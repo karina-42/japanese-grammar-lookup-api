@@ -47,6 +47,6 @@ app.get('/api/:lookedUpGrammar', (req, res) => {
   }
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`catch your server at port ${PORT}`);
 })
