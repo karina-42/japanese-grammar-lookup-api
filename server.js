@@ -5,17 +5,17 @@ app.use(cors())
 const PORT = 4000
 
 const grammar = {
-  'dake': {
+  'だけ': {
     japanese: 'だけ',
     meaning: '限定を表す',
     exampleSentence: '毎日20分あるくだけの軽い運動をしている。'
   },
-  'bakari': {
+  'ばかり': {
     japanese: 'ばかり',
     meaning: '同じもの、同じことが多い、マイナスイメージ',
     exampleSentence: 'この頃私は失敗ばかりしている。'
   },
-  'sae': {
+  'さえ': {
     japanese: 'さえ',
     meaning: '必要　十分　条件　（さえ～ば/なら）',
     exampleSentence: '年をとっても、体さえ丈夫なら心配はいらない。'
@@ -30,7 +30,7 @@ const grammar = {
   //   meaning: '',
   //   example: ''
   // },
-  'none': {
+  'ない': {
     japanese: 'none',
     meaning: 'none',
     exampleSentence: 'make an entry yourself'
