@@ -30,6 +30,7 @@ const grammar = {
     meaning: '多という気持',
     exampleSentence: '学校まで毎日2時間もかかる。'
   },
+  //find out how to differentiate grammar that sounds the same but have different meanings
   // 'だけ': {
   //   japanese: 'だけ',
   //   meaning: '程度が大きい',
@@ -45,6 +46,7 @@ const grammar = {
     meaning: '同じ種類のものがさらに加える',
     exampleSentence: '風が強くなった。雨まで降ってきた。'
   },
+  //template for more entries:
   // '': {
   //   japanese: '',
   //   meaning: '',
