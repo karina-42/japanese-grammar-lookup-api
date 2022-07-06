@@ -20,11 +20,16 @@ const grammar = {
     meaning: '必要　十分　条件　（さえ～ば/なら）',
     exampleSentence: '年をとっても、体さえ丈夫なら心配はいらない。'
   },
-  'shika': {
+  'しか': {
     japanese: 'しか',
     meaning: 'ほかにない、と強調する　（しか～ない）',
     exampleSentence: 'だれも手伝ってくれない。一人でがんばるしかない。'
   },
+  // 'mo': {
+  //   japanese: '',
+  //   meaning: '',
+  //   example: ''
+  // },
   'none': {
     japanese: 'none',
     meaning: 'none',
