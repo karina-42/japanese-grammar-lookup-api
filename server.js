@@ -25,11 +25,11 @@ const grammar = {
     meaning: 'ほかにない、と強調する　（しか～ない）',
     exampleSentence: 'だれも手伝ってくれない。一人でがんばるしかない。'
   },
-  // 'mo': {
-  //   japanese: '',
-  //   meaning: '',
-  //   example: ''
-  // },
+  'も': {
+    japanese: 'も',
+    meaning: '多という気持',
+    example: '学校まで毎日2時間もかかる。'
+  },
   'ない': {
     japanese: 'none',
     meaning: 'none',
