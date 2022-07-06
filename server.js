@@ -28,8 +28,23 @@ const grammar = {
   'も': {
     japanese: 'も',
     meaning: '多という気持',
-    example: '学校まで毎日2時間もかかる。'
+    exampleSentence: '学校まで毎日2時間もかかる。'
   },
+  // 'だけ': {
+  //   japanese: 'だけ',
+  //   meaning: '程度が大きい',
+  //   exampleSentence: 'わたしがどれだけ謝れば彼は許してくれるのか。'
+  // },
+  'こそ': {
+    japanese: 'こそ',
+    meaning: '肯定的な気持ちで強調する',
+    exampleSentence: '今年こそ転職します。'
+  },
+  // '': {
+  //   japanese: '',
+  //   meaning: '',
+  //   exampleSentence: ''
+  // },
   'ない': {
     japanese: 'none',
     meaning: 'none',
