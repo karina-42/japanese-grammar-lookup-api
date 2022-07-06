@@ -41,7 +41,7 @@ app.get('/api', (req, res) => {
 })
 
 app.get('/api/:lookedUpGrammar', (req, res) => {
-  const reqGrammar = req.params.lookedUpGrammar
+  const reqGrammar = req.params.lookedUpGrammar.toLowerCase()
   if(grammar[reqGrammar]) {
     res.json(grammar[reqGrammar])
   } else {
