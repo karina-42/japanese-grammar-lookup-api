@@ -40,6 +40,11 @@ const grammar = {
     meaning: '肯定的な気持ちで強調する',
     exampleSentence: '今年こそ転職します。'
   },
+  'まで': {
+    japanese: 'まで',
+    meaning: '同じ種類のものがさらに加える',
+    exampleSentence: '風が強くなった。雨まで降ってきた。'
+  },
   // '': {
   //   japanese: '',
   //   meaning: '',
