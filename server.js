@@ -72,7 +72,7 @@ app.get('/api/:lookedUpGrammar', (req, res) => {
   if(grammar[reqGrammar]) {
     res.json(grammar[reqGrammar])
   } else {
-    res.json(grammar['none'])
+    res.json(grammar['ない'])
   }
 })
 
